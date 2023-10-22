@@ -2,6 +2,9 @@
 
 # Pulled from the official website: https://docs.docker.com/engine/install/debian/ and https://docs.docker.com/compose/install/linux/
 
+# Ensure that sudo and curl are installed on the system (run as root)
+# apt install sudo curl
+
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
